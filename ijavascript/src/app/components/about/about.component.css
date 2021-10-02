@@ -1,0 +1,24 @@
+p{
+  font-size: 13px;
+}
+
+.container-fluid, .container
+{
+  padding-left: 10px;
+}
+
+hr{
+  border: 1px solid lightgray;
+  width: 100%;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 767px){
+  .imgcol{
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .row{
+    margin: auto;
+  }
+}

@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "610862a7ae389aea933cce00"
+  },
+  "date": "23-Feb-2021",
+  "description": "Travel Expense",
+  "amount": "Rs. 6000",
+  "userid": "IJ1001LP"
+},{
+  "_id": {
+    "$oid": "61086362ae389aea933cce01"
+  },
+  "date": "12-Jun-2021",
+  "description": "Dinner Expense",
+  "amount": "Rs. 2000",
+  "userid": "IJ1001LP"
+},{
+  "_id": {
+    "$oid": "61086390ae389aea933cce02"
+  },
+  "date": "07-Mar-2021",
+  "description": "Room Rent",
+  "amount": "Rs. 5000",
+  "userid": "IJ1002RS"
+},{
+  "_id": {
+    "$oid": "610863d2ae389aea933cce04"
+  },
+  "date": "12-Mar-2021",
+  "description": "Travel Expense",
+  "amount": "Rs. 5500",
+  "userid": "IJ1002RS"
+}]

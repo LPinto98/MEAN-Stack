@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "61081a8cae389aea933ccdfa"
+  },
+  "name": "Larissa Pinto",
+  "userid": "IJ1001LP",
+  "password": "$2b$10$ztjVJDOG4KK9Rr/nJldizu7HVKJyQ6W9PTuGhNn4/s.PA2f.KWy5G",
+  "last_login": "2021-08-16T12:31:47.894Z",
+  "balance": "Rs. 45000"
+},{
+  "_id": {
+    "$oid": "610821f4ae389aea933ccdfb"
+  },
+  "name": "Raj Sharma",
+  "userid": "IJ1002RS",
+  "password": "$2b$10$ztjVJDOG4KK9Rr/nJldizu7HVKJyQ6W9PTuGhNn4/s.PA2f.KWy5G",
+  "last_login": "2021-08-02T14:20:00",
+  "balance": "Rs. 67000"
+}]

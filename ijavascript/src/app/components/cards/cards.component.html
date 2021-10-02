@@ -1,0 +1,12 @@
+<div class="container d-flex-col justify-content-between" *ngIf="cardData.length > 0">
+  <div class="row">
+    <div class="col" *ngFor="let card of cardData">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{card.title}}</h5>
+          <p class="card-text">{{card.description}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

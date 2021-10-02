@@ -1,0 +1,77 @@
+.acbal{
+  color: #CC0000;
+  font-size: 2rem;
+}
+
+.btn {
+  background-color: #169BD5;
+  color: #FFF;
+  border-radius: 5px;
+  padding: 5px 10px 3px 10px;
+}
+
+/* .bottom-line{
+  border-bottom: 2px solid lightgray;
+} */
+
+input {
+  font-size: 13px;
+  padding: 5px;
+}
+
+img {
+  width: 100%;
+}
+.username-row, .table-responsive{
+  border-bottom: 2px solid lightgray;
+}
+.imgcol{
+  padding: 2em 0px 2em 0px;
+  max-width: 20%;
+}
+.usercol{
+  padding: 2em 0px 2em 1.5em;
+  display: inline;
+  word-wrap: normal;
+}
+
+.usercol h1{
+  display: inline;
+}
+
+@media screen and (max-width: 767px){
+  .usercol h1{
+    display: inline;
+    font-size: 1.5rem;
+  }
+  .usercol p{
+    font-size: 0.8rem;
+  }
+  .acbal{
+    font-size: 1rem;
+  }
+
+}
+@media screen and (max-width: 290px){
+  .usercol h1{
+    display: inline;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  .usercol p{
+    font-size: 0.5rem;
+  }
+  .acbal{
+    font-size: 1rem;
+  }
+  .imgcol{
+    padding: 1em 0px 1em 0px;
+    max-width: 30%;
+  }
+  .usercol{
+    padding: 1em 0px 1em 0.5em;
+    display: inline;
+    word-wrap: normal;
+  }
+
+}

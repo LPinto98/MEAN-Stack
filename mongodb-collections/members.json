@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "6112dd605e0a5561480289a0"
+  },
+  "name": "Jay Dave",
+  "job_role": "Frontend Developer React",
+  "imagePath": "http://localhost:3000/images/jay-dave-1628626272251.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6112ddbe5e0a5561480289a2"
+  },
+  "name": "Jium Seong",
+  "job_role": "Backend Developer",
+  "imagePath": "http://localhost:3000/images/jium-seong-1628626366214.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6112ddec5e0a5561480289a4"
+  },
+  "name": "Tina Jones",
+  "job_role": "Full Stack Java Developer",
+  "imagePath": "http://localhost:3000/images/tina-jones-1628626412437.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6112de1f5e0a5561480289a6"
+  },
+  "name": "Pooja Jain",
+  "job_role": "Frontend Developer Angular",
+  "imagePath": "http://localhost:3000/images/pooja-jain-1628626463167.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6112ded35e0a5561480289a8"
+  },
+  "name": "Lewis Hemming",
+  "job_role": "Software Technical Architect",
+  "imagePath": "http://localhost:3000/images/lewis-hemming-1628626643110.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6112df2c5e0a5561480289aa"
+  },
+  "name": "Michael Diaz",
+  "job_role": "Applicaton Developer - DevOps",
+  "imagePath": "http://localhost:3000/images/michael-diaz-1628626732930.png",
+  "__v": 0
+}]

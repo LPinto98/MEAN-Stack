@@ -1,0 +1,36 @@
+<app-banner></app-banner>
+<div class="nav nav-desktop flex-column d-sm-none d-lg-block" aria-orientation="vertical">
+  <div class="pt-3 container">
+    <a class="nav-link" [routerLink]="['./dashboard']" routerLinkActive="active" id="dashboard-tab" role="tab">DASHBOARD</a>
+  </div>
+  <hr class="mt-3 mb-3 w-75 mx-auto"/>
+  <div class="container">
+    <a class="nav-link" [routerLink]="['./about']" routerLinkActive="active" id="about-tab" role="tab">ABOUT</a>
+  </div>
+  <hr class="mt-3 mb-3 w-75 mx-auto"/>
+  <div class="container">
+    <a class="nav-link" [routerLink]="['./team']" routerLinkActive="active" id="team-tab" role="tab">TEAM</a>
+  </div>
+</div>
+
+<div class="btn-group nav-mobile d-lg-none d-md-none d-sm-flex d-flex">
+  <a class="btn" [routerLink]="['./dashboard']" routerLinkActive="active" id="dashboard-tab" role="tab">DASHBOARD</a>
+  <a class="btn" [routerLink]="['./about']" routerLinkActive="active" id="about-tab" role="tab">ABOUT</a>
+  <a class="btn" [routerLink]="['./team']" routerLinkActive="active" id="team-tab" role="tab">TEAM</a>
+</div>
+
+<ul class="nav nav-tablet d-lg-none d-md-flex d-sm-none bg-light justify-content-around">
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['./dashboard']" routerLinkActive="active" id="dashboard-tab" role="tab">DASHBOARD</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['./about']" routerLinkActive="active" id="about-tab" role="tab">ABOUT</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['./team']" routerLinkActive="active" id="team-tab" role="tab">TEAM</a>
+    </li>
+  </ul>
+
+
+
+

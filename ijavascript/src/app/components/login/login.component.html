@@ -1,0 +1,32 @@
+<div class="main-container container pt-5">
+  <div class="banner-container container">
+    <div class="top">
+      <p class="font-weight-light">Angular JS</p>
+      <h2>iJavaScript</h2>
+    </div>
+  </div>
+  <div class="form-container container">
+    <form (submit)="onLogin(loginForm)" #loginForm="ngForm" class="p-5">
+      <div class="alert alert-light" *ngIf="error" role="alert">
+        {{errormsg}}
+      </div>
+      <div class="form-group row">
+        <label for="staticEmail" class="col-sm-12 col-md-2 col-lg-2 col-form-label">User ID</label>
+        <div class="col-sm-12 col-md-6">
+          <input type="text" class="form-control" id="userid" name="userid" ngModel placeholder="Enter User ID" minlength=8 maxlength=20 required #userIdInput="ngModel">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="inputPassword" class="col-sm-12 col-md-2 col-lg-2 col-form-label">Password</label>
+        <div class="col-sm-12 col-md-6">
+          <input type="password" class="form-control" id="inputPassword" name="password" ngModel placeholder="Password" minlength=8 maxlength=20 required #pwdInput="ngModel">
+        </div>
+      </div>
+      <button type="submit" class="loginbtn btn mt-2 float-end">Login</button>
+      <br>
+    </form>
+  </div>
+    <!-- <div class="container">
+      <a routerLink="/register" class="btn btn-link">Register</a>
+    </div> -->
+</div>
