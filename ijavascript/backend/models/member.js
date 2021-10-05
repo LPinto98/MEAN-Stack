@@ -6,6 +6,5 @@ const memberSchema = mongoose.Schema({
   imagePath: { type: String, required: true }
 });
 
-// userSchema.plugin(uniqueValidator);
 
 module.exports = mongoose.model("Member", memberSchema);

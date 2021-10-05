@@ -1,9 +1,11 @@
 const http = require('http');
-const debug = require("debug")("node-angular");
 const app = require('./backend/app');
+const { PORT } = require("./backend/config");
 
-port = process.env.PORT || 3000;
-app.set('port',port)
+let port = PORT || 3000;
+app.set('port', port)
 const server = http.createServer(app);
 
-server.listen(port);
+server.listen(port, () => {
+    console.log(`Server is now listening on port: ${port}`);
+});
